@@ -1,0 +1,14 @@
+﻿<Window x:Class="Documentos.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Documentos"
+        mc:Ignorable="d"
+        Title="Docs" Height="450" Width="800" SizeToContent="WidthAndHeight" ResizeMode="NoResize"
+        Icon="main_icon.ico">
+    <StackPanel>
+        <Button x:Name="NuevoDocumentoButton" Margin="5" Click="NuevoDocumentoButton_Click">Nuevo documento</Button>
+        <Button x:Name="ConfiguracionButton" Margin="5" Click="ConfiguracionButton_Click">Configuración</Button>
+    </StackPanel>
+</Window>
